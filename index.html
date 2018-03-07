@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Dynamic Giphy</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- add bootstrap nav bar -->
+            <nav class="navbar navbar-light bg-light justify-content-between">
+                    <div class="navbar-brand" id="buttons"></div>
+                    <div class="form-inline">
+                      <input id="searchText" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                      <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                    </div>
+                  </nav>
+            
+        
+        <!-- this is added to the bootstrap nav bar.
+            <input type="text" value="" id="searchText" /> <button id="searchButton">Search</button> -->
+        <!--form to add buttons  -->
+        <div id="searchConditions"></div>
+        <!-- where gifs will be added -->
+        <div>
+        <div id="images"></div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

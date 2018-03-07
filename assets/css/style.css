@@ -1,0 +1,15 @@
+.item{
+    float: left;
+    margin: 15px;
+}
+
+.topic{
+    margin: 10px;
+    
+}
+#searchText{
+    margin: 10px;
+}
+body{
+    background: url("../images/bgsc.png");
+}
